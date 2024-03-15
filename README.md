@@ -11,3 +11,5 @@ This repository contains research and analysis on the impact of 'soft masculinit
 - `BTS_short_100.csv`: The dataset provided by the GOLEM project includes 100 BTS-related fanfictions. It includes story ID, publication year, word count, kudos, comments, and the stories' English content.
 
 - `m_riveter_model.pkl`: A trained riveter model specifying 'persona_patterns_dict= ' to assign scores only based on male pronouns (can be downloaded to save some time on training).
+  
+- `updated_df_with_scores.csv`: This is the updated dataset, which includes the original columns and a new column, `masculine_power_score` which was calculated as part of the analysis process.
